@@ -6,5 +6,4 @@ echo "theme: \"PaperMod\"" >> config.yml && rm config.toml
 hugo 
 mv /src/website/public/* /out
 
-
 exit $?
